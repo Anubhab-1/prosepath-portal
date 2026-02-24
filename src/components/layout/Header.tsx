@@ -3,6 +3,7 @@ import { Search, ShoppingBag, User, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useCart } from '@/context/CartContext';
 import { Button } from '@/components/ui/button';
+import logo from '@/assets/logo.jpeg';
 
 const navLinks = [
   { label: 'Books', path: '/catalogue' },
@@ -19,8 +20,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container flex h-16 items-center justify-between md:h-20">
-        <Link to="/" className="font-display text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-          Meridian<span className="text-gradient-gold">.</span>
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="Kathakhahon" className="h-10 w-auto md:h-12" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

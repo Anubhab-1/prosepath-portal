@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
+import logo from '@/assets/logo.jpeg';
 
 const Footer = () => (
   <footer className="bg-gradient-navy text-primary-foreground">
     <div className="container py-16">
       <div className="grid gap-10 md:grid-cols-4">
         <div className="space-y-4">
-          <h3 className="font-display text-2xl font-bold">Meridian<span className="text-gradient-gold">.</span></h3>
+          <img src={logo} alt="Kathakhahon" className="h-12 w-auto" />
           <p className="text-sm leading-relaxed text-primary-foreground/70">
-            Bringing extraordinary stories to life since 1923. Discover your next great read.
+            Bringing extraordinary stories to life. Discover your next great read.
           </p>
         </div>
         <div className="space-y-4">
@@ -42,7 +43,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-12 border-t border-primary-foreground/10 pt-8 text-center text-sm text-primary-foreground/40">
-        © {new Date().getFullYear()} Meridian Publishing. All rights reserved.
+        © {new Date().getFullYear()} Kathakhahon Publishing. All rights reserved.
       </div>
     </div>
   </footer>
