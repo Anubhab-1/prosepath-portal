@@ -12,7 +12,7 @@ const HeroBanner = () => (
     <div className="container relative z-10 py-24 md:py-36">
       <div className="max-w-2xl animate-fade-in space-y-6">
         <p className="font-body text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-          Meridian Publishing
+          Kathakhahon Publishing
         </p>
         <h1 className="font-display text-5xl font-bold leading-[1.1] text-primary-foreground md:text-7xl">
           Stories That
